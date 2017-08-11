@@ -12,6 +12,7 @@ namespace CalculaImposto
         {
             IImposto icms = new ICMS();
             IImposto iss = new ISS();
+            IImposto iccc = new ICCC();
 
             Orcamento orcamento = new Orcamento(500.00);
 
@@ -19,6 +20,7 @@ namespace CalculaImposto
 
             calculador.RealizaCalculo(orcamento, icms);
             calculador.RealizaCalculo(orcamento, iss);
+            calculador.RealizaCalculo(orcamento, iccc);
 
             Console.ReadKey();
         }
