@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrojado.cs" />
     <Compile Include="Conservador.cs" />
     <Compile Include="ContaBancaria.cs" />
     <Compile Include="IInvestimento.cs" />
