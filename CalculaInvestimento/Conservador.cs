@@ -10,7 +10,7 @@ namespace CalculaInvestimento
     {
         public void Investir(ContaBancaria conta)
         {
-            conta.Saldo += conta.Saldo * 0.8;
+            conta.Saldo += conta.Saldo * 0.008;
         }
     }
 }
