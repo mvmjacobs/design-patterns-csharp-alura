@@ -12,6 +12,7 @@ namespace CalculaInvestimento
         {
             IInvestimento conservador = new Conservador();
             IInvestimento moderado = new Moderado();
+            IInvestimento arrojado = new Arrojado();
 
             ContaBancaria conta = new ContaBancaria();
             conta.Depositar(500);
@@ -19,6 +20,7 @@ namespace CalculaInvestimento
             RealizadorDeInvestimentos realizador = new RealizadorDeInvestimentos();
             realizador.RealizaInvestimento(conta, conservador);
             realizador.RealizaInvestimento(conta, moderado);
+            realizador.RealizaInvestimento(conta, arrojado);
 
             Console.ReadKey();
         }
