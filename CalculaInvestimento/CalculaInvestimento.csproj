@@ -45,6 +45,7 @@
     <Compile Include="Conservador.cs" />
     <Compile Include="ContaBancaria.cs" />
     <Compile Include="IInvestimento.cs" />
+    <Compile Include="Moderado.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RealizadorDeInvestimentos.cs" />
