@@ -8,11 +8,11 @@ namespace CalculaInvestimento
 {
     public class ContaBancaria
     {
-        public double Saldo { get; set; }
+        public double Saldo { get; private set; }
 
-        public ContaBancaria(double saldoInicial)
+        public void Depositar(double valor)
         {
-            this.Saldo = saldoInicial;
+            this.Saldo += valor;
         }
     }
 }

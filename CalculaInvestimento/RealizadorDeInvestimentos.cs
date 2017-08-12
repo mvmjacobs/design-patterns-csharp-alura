@@ -10,7 +10,8 @@ namespace CalculaInvestimento
     {
         public void RealizaInvestimento(ContaBancaria conta, IInvestimento investimento)
         {
-            investimento.Investir(conta);
+            double valor = investimento.Calcular(conta);
+            conta.Depositar(valor * 0.75);
             Console.WriteLine(conta.Saldo);
         }
     }
