@@ -11,11 +11,13 @@ namespace CalculaInvestimento
         static void Main(string[] args)
         {
             IInvestimento conservador = new Conservador();
+            IInvestimento moderado = new Moderado();
 
             ContaBancaria conta = new ContaBancaria(500);
 
             RealizadorDeInvestimentos realizador = new RealizadorDeInvestimentos();
             realizador.RealizaInvestimento(conta, conservador);
+            realizador.RealizaInvestimento(conta, moderado);
 
             Console.ReadKey();
         }
