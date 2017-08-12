@@ -8,9 +8,9 @@ namespace CalculaInvestimento
 {
     public class Conservador : IInvestimento
     {
-        public void Investir(ContaBancaria conta)
+        public double Calcular(ContaBancaria conta)
         {
-            conta.Saldo += conta.Saldo * 0.008;
+            return conta.Saldo * 0.008;
         }
     }
 }

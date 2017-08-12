@@ -8,10 +8,11 @@ namespace CalculaInvestimento
 {
     public class Moderado : IInvestimento
     {
-        public void Investir(ContaBancaria conta)
+        public double Calcular(ContaBancaria conta)
         {
-            double valor = conta.Saldo * (new Random().Next(101) > 50 ? 0.025 : 0.007);
-            conta.Saldo += valor;
+            if (new Random().Next(2) == 0)
+                return conta.Saldo * 0.025;
+            return conta.Saldo * 0.007;
         }
     }
 }

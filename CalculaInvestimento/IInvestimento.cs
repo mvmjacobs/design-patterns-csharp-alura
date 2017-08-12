@@ -8,6 +8,6 @@ namespace CalculaInvestimento
 {
     public interface IInvestimento
     {
-        void Investir(ContaBancaria conta);
+        double Calcular(ContaBancaria conta);
     }
 }
