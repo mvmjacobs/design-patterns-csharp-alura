@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conservador.cs" />
+    <Compile Include="ContaBancaria.cs" />
+    <Compile Include="IInvestimento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealizadorDeInvestimentos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
