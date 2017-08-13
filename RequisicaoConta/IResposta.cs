@@ -8,7 +8,7 @@ namespace RequisicaoConta
 {
     public interface IResposta
     {
-        IResposta Proxima { get; set; }
+        IResposta OutraResposta { get; set; }
         void Responder(Conta conta, EFormato formato);
     }
 }
