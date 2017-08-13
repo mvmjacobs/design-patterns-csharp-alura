@@ -46,6 +46,7 @@
     <Compile Include="ICCC.cs" />
     <Compile Include="ICMS.cs" />
     <Compile Include="ICPP.cs" />
+    <Compile Include="IHIT.cs" />
     <Compile Include="IImposto.cs" />
     <Compile Include="IKCV.cs" />
     <Compile Include="ImpostoTemplate.cs" />
