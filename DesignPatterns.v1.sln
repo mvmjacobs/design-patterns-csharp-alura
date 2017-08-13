@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaInvestimento", "Calc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaDesconto", "CalculaDesconto\CalculaDesconto.csproj", "{EFB91F28-CA87-4159-B61E-4EF0F659171B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoConta", "RequisicaoConta\RequisicaoConta.csproj", "{40A99416-159C-487A-9AA4-9FD3AF527EB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EFB91F28-CA87-4159-B61E-4EF0F659171B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFB91F28-CA87-4159-B61E-4EF0F659171B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFB91F28-CA87-4159-B61E-4EF0F659171B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A99416-159C-487A-9AA4-9FD3AF527EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A99416-159C-487A-9AA4-9FD3AF527EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A99416-159C-487A-9AA4-9FD3AF527EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A99416-159C-487A-9AA4-9FD3AF527EB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
