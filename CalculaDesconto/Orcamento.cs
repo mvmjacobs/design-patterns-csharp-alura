@@ -20,6 +20,7 @@ namespace CalculaDesconto
         public void AdicionarItem(Item item)
         {
             this.Itens.Add(item);
+            this.Valor += item.Valor;
         }
     }
 }
