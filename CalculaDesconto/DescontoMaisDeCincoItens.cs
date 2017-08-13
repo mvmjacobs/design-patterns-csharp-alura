@@ -12,8 +12,10 @@ namespace CalculaDesconto
 
         public double Calcular(Orcamento orcamento)
         {
-            // TODO: Aplicar a regra
-            return 0;
+            if (orcamento.Itens.Count > 5)
+                return orcamento.Valor * 0.1;
+
+            return Proximo.Calcular(orcamento);
         }
     }
 }
