@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DescontoMaisDeCincoItens.cs" />
     <Compile Include="IDesconto.cs" />
     <Compile Include="Orcamento.cs" />
     <Compile Include="Program.cs" />
