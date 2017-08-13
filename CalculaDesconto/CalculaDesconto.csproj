@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DescontoMaisDeCincoItens.cs" />
+    <Compile Include="DescontoValorMaiorQue500.cs" />
     <Compile Include="IDesconto.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Orcamento.cs" />
