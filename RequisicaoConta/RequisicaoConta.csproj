@@ -50,6 +50,7 @@
     <Compile Include="RespostaEmCSV.cs" />
     <Compile Include="RespostaEmPorcentagem.cs" />
     <Compile Include="RespostaEmXML.cs" />
+    <Compile Include="ServidorDeResposta.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

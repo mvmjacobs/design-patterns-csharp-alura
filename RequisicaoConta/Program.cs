@@ -10,6 +10,13 @@ namespace RequisicaoConta
     {
         static void Main(string[] args)
         {
+            Conta conta = new Conta("Marcos", 0.01);
+
+            ServidorDeResposta servidor = new ServidorDeResposta();
+
+            servidor.SolicitarResposta(conta, EFormato.XML);
+
+            Console.ReadKey();
         }
     }
 }
