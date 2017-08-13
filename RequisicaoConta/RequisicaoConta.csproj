@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Conta.cs" />
     <Compile Include="EFormato.cs" />
+    <Compile Include="IResposta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
