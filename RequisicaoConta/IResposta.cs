@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RequisicaoConta
 {
-    interface IResposta
+    public interface IResposta
     {
         IResposta Proxima { get; set; }
         void Responder(Conta conta, EFormato formato);
