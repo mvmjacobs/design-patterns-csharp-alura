@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="DescontoMaisDeCincoItens.cs" />
     <Compile Include="IDesconto.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="Orcamento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
