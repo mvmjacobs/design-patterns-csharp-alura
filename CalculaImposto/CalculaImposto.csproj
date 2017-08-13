@@ -47,8 +47,10 @@
     <Compile Include="ICMS.cs" />
     <Compile Include="ICPP.cs" />
     <Compile Include="IImposto.cs" />
+    <Compile Include="IKCV.cs" />
     <Compile Include="ImpostoTemplate.cs" />
     <Compile Include="ISS.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="Orcamento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
