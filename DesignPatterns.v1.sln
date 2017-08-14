@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaDesconto", "CalculaD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicaoConta", "RequisicaoConta\RequisicaoConta.csproj", "{40A99416-159C-487A-9AA4-9FD3AF527EB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelatorioDeContas", "RelatorioDeContas\RelatorioDeContas.csproj", "{06CE6957-543F-44D0-8E4F-663535AA1C47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{40A99416-159C-487A-9AA4-9FD3AF527EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A99416-159C-487A-9AA4-9FD3AF527EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A99416-159C-487A-9AA4-9FD3AF527EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CE6957-543F-44D0-8E4F-663535AA1C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CE6957-543F-44D0-8E4F-663535AA1C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CE6957-543F-44D0-8E4F-663535AA1C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CE6957-543F-44D0-8E4F-663535AA1C47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
