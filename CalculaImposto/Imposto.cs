@@ -8,9 +8,26 @@ namespace CalculaImposto
 {
     public abstract class Imposto : IImposto
     {
-        public double Calcula(Orcamento orcamento)
+        protected IImposto OutroImposto { get; private set; }
+
+        public Imposto(IImposto outroImposto)
         {
-            throw new NotImplementedException();
+            this.OutroImposto = outroImposto;
+        }
+
+        public Imposto()
+        {
+            this.OutroImposto = null;
+        }
+
+        public abstract double Calcula(Orcamento orcamento);
+
+        protected double CalculoDoOutroImposto(Orcamento orcamento)
+        {
+            if (this.OutroImposto == null)
+                return 0;
+
+            return this.OutroImposto.Calcula(orcamento);
         }
     }
 }
