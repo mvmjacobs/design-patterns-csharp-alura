@@ -50,6 +50,7 @@
     <Compile Include="IImposto.cs" />
     <Compile Include="IKCV.cs" />
     <Compile Include="Imposto.cs" />
+    <Compile Include="ImpostoMuitoAlto.cs" />
     <Compile Include="ImpostoTemplate.cs" />
     <Compile Include="ISS.cs" />
     <Compile Include="Item.cs" />
