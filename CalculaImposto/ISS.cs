@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace CalculaImposto
 {
-    public class ISS : IImposto
+    public class ISS : Imposto
     {
-        public double Calcula(Orcamento orcamento)
+        public ISS(IImposto outroImposto) : base(outroImposto) { }
+        public ISS() : base() { }
+
+        public override double Calcula(Orcamento orcamento)
         {
-            return orcamento.Valor * 0.06;
+            return orcamento.Valor * 0.06 + CalculoDoOutroImposto(orcamento);
         }
     }
 }
