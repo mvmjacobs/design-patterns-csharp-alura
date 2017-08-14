@@ -45,6 +45,7 @@
     <Compile Include="Conta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelatorioComplexo.cs" />
     <Compile Include="RelatorioSimples.cs" />
     <Compile Include="RelatorioTemplate.cs" />
   </ItemGroup>
