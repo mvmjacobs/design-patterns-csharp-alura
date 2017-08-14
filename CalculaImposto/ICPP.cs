@@ -8,6 +8,9 @@ namespace CalculaImposto
 {
     public class ICPP : ImpostoTemplate
     {
+        public ICPP(IImposto outroImposto) : base(outroImposto) { }
+        public ICPP() : base() { }
+
         public override double MaximaTaxacao(Orcamento orcamento)
         {
             return orcamento.Valor * 0.07;

@@ -8,6 +8,9 @@ namespace CalculaImposto
 {
     public class IKCV : ImpostoTemplate
     {
+        public IKCV(IImposto outroImposto) : base(outroImposto) { }
+        public IKCV() : base() { }
+
         public override double MaximaTaxacao(Orcamento orcamento)
         {
             return orcamento.Valor * 0.1;

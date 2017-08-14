@@ -8,6 +8,9 @@ namespace CalculaImposto
 {
     public class IHIT : ImpostoTemplate
     {
+        public IHIT(IImposto outroImposto) : base(outroImposto) { }
+        public IHIT() : base() { }
+
         public override double MaximaTaxacao(Orcamento orcamento)
         {
             return (orcamento.Valor * 0.13) + 100;
