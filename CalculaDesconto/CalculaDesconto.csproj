@@ -42,15 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aprovado.cs" />
     <Compile Include="CalculadorDeDesconto.cs" />
     <Compile Include="DescontoMaisDeCincoItens.cs" />
     <Compile Include="DescontoPorVendaCasada.cs" />
     <Compile Include="DescontoValorMaiorQue500.cs" />
+    <Compile Include="EmAprovacao.cs" />
+    <Compile Include="Finalizado.cs" />
     <Compile Include="IDesconto.cs" />
+    <Compile Include="IStatusOrcamento.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Orcamento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reprovado.cs" />
     <Compile Include="SemDesconto.cs" />
   </ItemGroup>
   <ItemGroup>
