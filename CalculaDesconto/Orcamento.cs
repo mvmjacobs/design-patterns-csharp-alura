@@ -25,5 +25,20 @@ namespace CalculaDesconto
         {
             this.StatusAtual.AplicaDescontoExtra(this);
         }
+
+        public void Aprova()
+        {
+            this.StatusAtual.Aprova(this);
+        }
+
+        public void Finaliza()
+        {
+            this.StatusAtual.Finaliza(this);
+        }
+
+        public void Reprova()
+        {
+            this.StatusAtual.Reprova(this);
+        }
     }
 }

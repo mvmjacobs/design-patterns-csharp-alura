@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CalculaDesconto
 {
@@ -17,9 +13,18 @@ namespace CalculaDesconto
             orcamento.AdicionarItem(new Item("Placa de video", 1500));
             orcamento.AdicionarItem(new Item("HD", 500));
 
-            CalculadorDeDesconto calculador = new CalculadorDeDesconto();
-            double desconto = calculador.CalcularDesconto(orcamento);
-            Console.WriteLine(desconto);
+            //CalculadorDeDesconto calculador = new CalculadorDeDesconto();
+            //double desconto = calculador.CalcularDesconto(orcamento);
+            //Console.WriteLine(desconto);
+
+            Console.WriteLine(orcamento.Valor);
+            orcamento.AplicaDescontoExtra();
+            Console.WriteLine(orcamento.Valor);
+            orcamento.Aprova();
+
+            orcamento.AplicaDescontoExtra();
+            Console.WriteLine(orcamento.Valor);
+            orcamento.Finaliza();
 
             Console.ReadKey();
         }
